@@ -23,7 +23,12 @@ Cox Automotive's release team supports 60+ service repos (Autotrader, KBB, Deale
     make test
 
 ## Break-fix drills
-_TBD: gitleaks block, merge conflict, revert, reflog recovery._
+### 1. Gitleaks blocks a leaked token
+Planted a fake GitHub PAT in `leak.txt` and tried to commit. The pre-commit gitleaks hook blocked it before it ever reached git history.
+
+![gitleaks blocked commit](docs/images/gitleaks-block.png)
+
+_More drills: merge conflict, revert, reflog recovery._
 
 ## Evidence
 _TBD: blocked-commit screenshot, ruleset.json, merged PR link._
