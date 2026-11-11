@@ -1,7 +1,7 @@
 # repo-standards-template
 
 ## Scenario
-Cox Automotive's release team supports 60+ service repos (Autotrader, KBB, Dealertrack), each set up differently. This template is the single starting point for every new repo.
+Cox Automotive's release team supports 65+ service repos (Autotrader, KBB, Dealertrack), each set up differently. This template is the single starting point for every new repo.
 
 ## What's included
 | File | Purpose |
