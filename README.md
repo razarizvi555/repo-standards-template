@@ -31,7 +31,7 @@ Planted a fake GitHub PAT in `leak.txt` and tried to commit. The pre-commit gitl
 _More drills: merge conflict, revert, reflog recovery._
 
 ## Evidence
-_TBD: blocked-commit screenshot, ruleset.json, merged PR link._
+blocked-commit screenshot, ruleset.json, merged PR link.
 
 ## What I learned
-_TBD_
+Forgot to remove conflict markers before staging. The check-merge-conflict hook blocked the commit.
